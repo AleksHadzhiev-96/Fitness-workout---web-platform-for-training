@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+:root{
+    --main-color: rgb(197, 57, 57);
+    --black: #000; 
+    --light-color: #868e96
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+::selection{
+    background: var(--main-color);
+    color: #fff;
+
+}
+
+html{
+    font-size: 83.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: #fafafa;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--main-color);
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: var(--main-color);
+    color: #fff;
+    letter-spacing: .1rem;
+}
+/*------------------------------------header section start --------------------------------------*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 3rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,255,255,.1);
+    box-shadow: 0rem .1rem .5rem rgba(0,0,0,.1);
+    z-index: 1000;
+}
+
+.header .logo{
+    font-size: 2.5 rem;
+    color: var(--black);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.header .logo span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+}
+
+.header .icons div {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: .5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.header .icons div:hover {
+    transform: rotate(180deg);
+    color: var(--main-color);
+}
+
+.header .icons a{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    background: var(--main-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .8rem 2rem;
+    border: none;
+}
+
+.header .icons a:hover{
+    color: var(--main-color);
+    background: #fff;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.header.active{
+    padding: 2rem 9%;
+    background: rgba(0,0,0,.9);
+}
+
+/*------------------------------------header section end --------------------------------------*/
+
+element.style {
+}
+@media (min-width: 34em)
+.login-wrapper {
+    padding: 1rem 1rem 0;
+}
+@media (min-width: 23em)
+.login-wrapper {
+    padding: .5rem .5rem 0;
+}
+.h-screen {
+    height: 100vh;
+}
+.items-center, .modal-nav-area {
+    align-items: center;
+}
+.flex-column, [data-simplebar] {
+    flex-direction: column;
+}
+.flex, .modal-nav-area, .timeline {
+    display: flex!important;
+}
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    color: #3c3c3f;
+    background-color: #f5f6f8;
+    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
+}
+html {
+    overflow-y: scroll;
+    font-size: 17px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: var(--main-color);
+}
+
+element.style {
+}
+.article-body .aspect-ratio>iframe, .article-body img, .aspect-ratio--object, .pswp__top-bar, .uploader fieldset, .w-100 {
+    width: 100%;
+}
+.btn, .checkbox+label:after, .checkbox+label:before, .dropzone .dz-message span, .lines, .pswp__caption__center, .tc, .toggle+label:before {
+    text-align: center;
+}
+.article-body blockquote, .card, .forum-post blockquote, .modal-nav-area, .pa3, .step-by-step li, td, th {
+    padding: 1rem;
+}
+.mw6, .pswp__caption__center {
+    max-width: 32rem;
+}
+.article-body table tr, .dropzone .dz-message span, .pagination .cur-open, .pagination a, .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, .states-bg, .states-opacity, .states-shadow, .uploader fieldset {
+    transition: all 150ms ease;
+}
+.article-body blockquote, .article-body img, .card, .cc_container, .forum-post blockquote, .input+label, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-dropdown, .select2-search--dropdown .select2-search__field+label, .shadow, .step-by-step li, .tooltip:after {
+    box-shadow: 0 0 8px 0 rgba(60,60,63,.09), 0 3px 6px 0 rgba(60,60,63,.07);
+}
+.article-body blockquote, .article-body img, .br1, .card, .cc_container, .forum-post blockquote, .input, .input+label, .select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-search--dropdown .select2-search__field, .select2-search--dropdown .select2-search__field+label, .step-by-step li, .tooltip:after, table {
+    border-radius: .25rem;
+}
+.article-body blockquote, .bg-fff, .card, .checkbox+label:before, .forum-post blockquote, .input+label, .input:focus, .modal-nav-area, .pagination .cur-open, .pagination a, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-search--dropdown .select2-search__field+label, .select2-search--dropdown .select2-search__field:focus, .step-by-step li, .toggle+label:after, .toggle+label:before {
+    background-color: #fff;
+}
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    color: #3c3c3f;
+    background-color: #f5f6f8;
+    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
+}
+html {
+    overflow-y: scroll;
+    font-size: 17px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: var(--main-color);
+}
+
+element.style {
+}
+.calendar-date, .f2, .step-by-step li:before, .vitamin {
+    font-size: 2.25rem;
+}
+.mb4 {
+    margin-bottom: 2rem;
+}
+.lh-title {
+    line-height: 1.25;
+}
+.article-body h2, .btn, .dropzone .dz-message span, .fw6, .step-by-step li:before, .tooltip:after, th {
+    font-weight: 600;
+}
+.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
+    box-sizing: border-box;
+}
+p {
+    margin-bottom: 1rem;
+}
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.btn, .checkbox+label:after, .checkbox+label:before, .dropzone .dz-message span, .lines, .pswp__caption__center, .tc, .toggle+label:before {
+    text-align: center;
+}
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    color: #3c3c3f;
+    background-color: #f5f6f8;
+    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
+}
+html {
+    overflow-y: scroll;
+    font-size: 17px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: var(--main-color);
+}
+
+
+
+/*----------------------------footer section start --------------------------------*/
+
+.footer {
+    background: #222;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box{
+    padding: 2rem;
+}
+
+.footer .box-container .box h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box .text{
+    color: #eee;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1,8;
+    padding-bottom: 1rem;
+}
+
+.footer .box-container .box .icon{
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .icon a i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    background: var(--main-color);
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    color: #fff;
+}
+
+.footer .box-container .box .icon a i:hover{
+    color: var(--main-color);
+    background: none;
+    border: .2rem solid var(--main-color);
+}
+
+.footer .box-container .box .icons a{
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.footer .box-container .box .icons a i{
+    margin-right: .5rem;
+    color: var(--main-color);
+}
+
+.footer .box-container .box .icons a:hover i{
+    padding-right: 2rem;
+    color: #fff;
+}
+
+.footer .box-container .box .icons a:hover{
+    color: var(--main-color);  
+}
+
+.footer .credit{
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid #808080;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #eee;
+}
+
+.footer .credit span{
+    color: var(--main-color);
+}
+
+
+
+/*----------------------------footer section end --------------------------------*/
+
+/*------------------------------ media queries section ------------------------------*/
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    .header.active{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+
+}
+/*------------------------------------ for maxwidth 768px--------------------------------*/
+@media (max-width: 768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: #808080;
+        border-top: .1rem solid #eee;
+        clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path:  polygon(0 0 , 100% 0 , 100% 100%, 0 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+    
+    .feature .feature-slider .box .content h3{
+        padding: 1rem;
+    }
+
+    .testimonial .box-container{
+        padding: 1rem 0;
+    }
+
+    .testimonial .box-container .box{
+        margin: 6rem;
+    }
+
+
+}
+
+/*------------------------------------ for maxwidth 450px--------------------------------*/
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+    
+    .header .icons a{
+        letter-spacing: non;
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+}
