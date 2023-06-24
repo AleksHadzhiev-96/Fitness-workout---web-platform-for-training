@@ -1,19 +1,17 @@
+   
 <!DOCTYPE html>
-<html lang="bg">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> News </title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register</title>
 
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./register form.css">
 
     <!-- Swiper css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-
-
-    <!-- custom CSS file link -->
-    <link rel="stylesheet" href="register form.css">
-
 
     <!-- fontawesome csd file ling-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
@@ -22,147 +20,94 @@
 
 </head>
 <body>
-    
+   <!-- header section start-->
+
 <header class="header">
 
     <a href="#" class="logo"> Fit<span>ness workout</span></a>
     <nav class="navbar">
         <a href="./index.html">Начало</a>
         <a href="./testimonial.html">За нас</a>
-        <a href="#">профил</a>
+        <a href="./login form.html">профил</a>
         <a href="./blogs.html">Новини</a> 
         <a href="#">Контакти</a>  
     </nav>
 
     <div class="icons">
-        <a href="./register form.html" class="btn"> Стани член </a>
+        <a href="./login form.html" class="btn"> Стани член </a>
         <div id="menu-btn" class="fas fa-bars"></div>
     </div>
 
 </header>
 
-<div class="login-wrapper h-screen flex flex-column justify-center-md items-center">
-    <div class="card states-shadow tc mt0-md w-100 mw6">
-        <a href="https://www.bb-team.org/">
-          <svg aria-hidden="true" role="img" class="w4 h2 mb3">
-            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
-          </svg>
-        </a>
+    <!-- header section end-->
 
-<p class="f2 fw6 mb4 lh-title">Регистрация</p>
+<div class="form-container">
 
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>регистрация</h3>
+    
+      <input type="text" name="name" placeholder="enter username" class="box" required>
+      <input type="email" name="email" placeholder="enter email" class="box" required>
+      <input type="password" name="password" placeholder="enter password" class="box" required>
+      <input type="password" name="cpassword" placeholder="confirm password" class="box" required>
+      <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png">
+      <input type="submit" name="submit" value="регистрирай ме" class="btn">
+      <p>имаш профил? <a href="./login form.html">влез сега</a></p>
+   </form>
 
-<form action="#" autocomplete="off" role="form" data-parsley-validate="" data-parsley-errors-messages-disabled="" data-parsley-ui-enabled="true" data-parsley-focus="first" method="post" accept-charset="utf-8" novalidate="">
-                                                                                                                           <input type="hidden" name="csrf_keeper" value="56dcb17a3e180f262a9a18ca873626fd">
-<div class="flex-sm mhn1-sm mb2">
-<div class="w-50-sm ph1-sm">
-    <fieldset class="w-100">
-        <input type="text" name="firstName" maxlength="50" id="firstName" class="input w-100 mb2 mb0-sm" tabindex="1" placeholder="Име" required="" value="">
-        <label>Име</label>
-    </fieldset>
 </div>
-<div class="w-50-sm ph1-sm">
-    <fieldset class="w-100">
-        <input type="text" name="lastName" maxlength="50" id="lastName" class="input w-100" tabindex="2" placeholder="Фамилия" required="" value="">
-        <label>Фамилия</label>
-    </fieldset>
-</div>
-</div>
+<!-- footer section footer -->
 
-<fieldset class="w-100 mb2">
-<input type="email" name="email" maxlength="100" id="email" class="input w-100" tabindex="3" placeholder="Имейл" required="" value="">
-<label>Имейл адрес</label>
-</fieldset>
+<section class="footer">
 
-<fieldset class="w-100 mb2">
-<input type="password" name="password" id="password" class="input w-100" tabindex="4" placeholder="Парола" required="">
-<label>Парола</label>
-</fieldset>
+    <div class="box-container">
 
-
-<fieldset class="w-100 mb2">
-<input type="text" name="mAnswer" class="input w-100" tabindex="6" placeholder="Колко е осем + три?" required="">
-<label>Колко е осем + три?</label>
-</fieldset>
-
-<fieldset class="w-100 tl mb1">
-<input id="radio-male" type="radio" class="checkbox" name="gender" value="male" tabindex="7" required="" data-parsley-multiple="gender">
-<label for="radio-male" class="states-opacity">Мъж</label>
-</fieldset>
-<fieldset class="w-100 tl mb4">
-<input id="radio-female" type="radio" class="checkbox" name="gender" value="female" tabindex="8" required="" data-parsley-multiple="gender">
-<label for="radio-female" class="states-opacity">Жена</label>
-</fieldset>
-
-<p class="fw5">Натискайки бутона "регистрирай ме", аз се съгласявам с <a href="#" target="_blank" class="green states-opacity">условията за ползване</a>.</p>
-
-<div>
-<input type="hidden" name="timely" value="1685988477">
-<input type="hidden" name="clientHash" value="">
-<input type="hidden" name="sid" value="">
-<input type="hidden" name="d" value="">
-<button type="submit" class="btn bg-green states-opacity b-green mb3 db w-100" tabindex="9">Регистрирай ме</button>
-</div>
-</form>
-
-<p class="mb0 fw5">Имаш акаунт? <a href="#" class="green states-opacity">Влез с
-    него</a>.</p>
-
-    </div>
-<div id="extwaiokist" style="display:none" v="nipgg" q="e079a1c9" c="111.1" i="117" u="25.87" s="05272315" sg="svr_04262315-ga_05272315-bai_04172310" d="1" w="false" e="" a="3" m="BMe="><div id="extwaigglbit" style="display:none" v="nipgg" q="e079a1c9" c="111.1" i="117" u="25.87" s="05272315" sg="svr_04262315-ga_05272315-bai_04172310" d="1" w="false" e="" a="3" m="BMe="></div></div></div>
-
-
-
-    <section class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h1>за нас</h1>
-                <div class="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Doloribus eius veritatis quas illo saepe consequuntur 
-                        ratione, nobis quae quisquam reiciendis voluptatum praesentium d
-                        olorum possimus harum consequatur aspernatur, commodi nemo atque?</p>
-                </div>
-                <div class="icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+        <div class="box">
+            <h1>за нас</h1>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Doloribus eius veritatis quas illo saepe consequuntur 
+                    ratione, nobis quae quisquam reiciendis voluptatum praesentium d
+                    olorum possimus harum consequatur aspernatur, commodi nemo atque?</p>
             </div>
-
-            <div class="box">
-                <h1>информация</h1>
-                <div class="icons">
-                    <a href="#"><i class="fas fa-map-marker-alt"></i>бул. Христо Ботев 21, Пловдив, България</a>
-                    <a href="#"><i class="fas fa-phone-alt"></i>+35987858684</a>
-                    <a href="#"><i class="fas fa-envelope"></i>example@gmail.com</a>
-                </div>
+            <div class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
-
-            <div class="box">
-                <h1>бърза навигация</h1>
-                <div class="icons">
-                    <a href="./index.html">Начало</a>
-                    <a href="./testimonial.html">за нас</a>
-                    <a href="#">профил</a>
-                    <a href="./blogs.html">новини</a>
-                    <a href="#">контакти</a>
-                </div>
-            </div>
-
         </div>
 
-        <div class="credit">created by <span>Aleks Hadzhiev</span></div>
+        <div class="box">
+            <h1>информация</h1>
+            <div class="icons">
+                <a href="#"><i class="fas fa-map-marker-alt"></i>бул. Христо Ботев 21, Пловдив, България</a>
+                <a href="#"><i class="fas fa-phone-alt"></i>+35987858684</a>
+                <a href="#"><i class="fas fa-envelope"></i>example@gmail.com</a>
+            </div>
+        </div>
 
-     </section>
+        <div class="box">
+            <h1>бърза навигация</h1>
+            <div class="icons">
+                <a href="./index.html">Начало</a>
+                <a href="./testimonial.html">за нас</a>
+                <a href="./login form.html">профил</a>
+                <a href="./blogs.html">новини</a>
+                <a href="#">контакти</a>
+            </div>
+        </div>
 
-     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    </div>
 
-     <!-- CUSTOM JS file LINK -->
-     <script src="script.js"></script>
- 
- </body>    
- </html>
+    <div class="credit">created by <span>Aleks Hadzhiev</span></div>
+
+ </section>
+
+
+ <!-- footer section end -->
+
+
+</body>
+</html>

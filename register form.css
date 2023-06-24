@@ -157,209 +157,126 @@ section{
 
 /*------------------------------------header section end --------------------------------------*/
 
-element.style {
-}
-@media (min-width: 34em)
-.login-wrapper {
-    padding: 1rem 1rem 0;
-}
-@media (min-width: 23em)
-.login-wrapper {
-    padding: .5rem .5rem 0;
-}
-.h-screen {
-    height: 100vh;
-}
-.items-center, .modal-nav-area {
-    align-items: center;
-}
-.flex-column, [data-simplebar] {
-    flex-direction: column;
-}
-.flex, .modal-nav-area, .timeline {
-    display: flex!important;
-}
-abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: 0 0;
-}
-.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
-    box-sizing: border-box;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-user agent stylesheet
-div {
-    display: block;
-}
-body {
-    font-size: 1rem;
-    line-height: 1.5;
-    height: 100%;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3c3f;
-    background-color: #f5f6f8;
-    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
-}
-html {
-    overflow-y: scroll;
-    font-size: 17px;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-::selection {
-    background-color: var(--main-color);
+
+:root{
+   --blue:#3498db;
+   --dark-blue:#2980b9;
+   --red:#e74c3c;
+   --dark-red:#c0392b;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
 }
 
-element.style {
-}
-.article-body .aspect-ratio>iframe, .article-body img, .aspect-ratio--object, .pswp__top-bar, .uploader fieldset, .w-100 {
-    width: 100%;
-}
-.btn, .checkbox+label:after, .checkbox+label:before, .dropzone .dz-message span, .lines, .pswp__caption__center, .tc, .toggle+label:before {
-    text-align: center;
-}
-.article-body blockquote, .card, .forum-post blockquote, .modal-nav-area, .pa3, .step-by-step li, td, th {
-    padding: 1rem;
-}
-.mw6, .pswp__caption__center {
-    max-width: 32rem;
-}
-.article-body table tr, .dropzone .dz-message span, .pagination .cur-open, .pagination a, .select2-container--default .select2-results__option[aria-selected=true], .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-results__option, .states-bg, .states-opacity, .states-shadow, .uploader fieldset {
-    transition: all 150ms ease;
-}
-.article-body blockquote, .article-body img, .card, .cc_container, .forum-post blockquote, .input+label, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-dropdown, .select2-search--dropdown .select2-search__field+label, .shadow, .step-by-step li, .tooltip:after {
-    box-shadow: 0 0 8px 0 rgba(60,60,63,.09), 0 3px 6px 0 rgba(60,60,63,.07);
-}
-.article-body blockquote, .article-body img, .br1, .card, .cc_container, .forum-post blockquote, .input, .input+label, .select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-search--dropdown .select2-search__field, .select2-search--dropdown .select2-search__field+label, .step-by-step li, .tooltip:after, table {
-    border-radius: .25rem;
-}
-.article-body blockquote, .bg-fff, .card, .checkbox+label:before, .forum-post blockquote, .input+label, .input:focus, .modal-nav-area, .pagination .cur-open, .pagination a, .select2-container--default .select2-selection--multiple .select2-selection__choice, .select2-search--dropdown .select2-search__field+label, .select2-search--dropdown .select2-search__field:focus, .step-by-step li, .toggle+label:after, .toggle+label:before {
-    background-color: #fff;
-}
-abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: 0 0;
-}
-.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
-    box-sizing: border-box;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-user agent stylesheet
-div {
-    display: block;
-}
-body {
-    font-size: 1rem;
-    line-height: 1.5;
-    height: 100%;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3c3f;
-    background-color: #f5f6f8;
-    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
-}
-html {
-    overflow-y: scroll;
-    font-size: 17px;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-::selection {
-    background-color: var(--main-color);
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
 }
 
-element.style {
-}
-.calendar-date, .f2, .step-by-step li:before, .vitamin {
-    font-size: 2.25rem;
-}
-.mb4 {
-    margin-bottom: 2rem;
-}
-.lh-title {
-    line-height: 1.25;
-}
-.article-body h2, .btn, .dropzone .dz-message span, .fw6, .step-by-step li:before, .tooltip:after, th {
-    font-weight: 600;
-}
-.border-box, article, body, code, dd, div, dl, dt, fieldset, footer, form, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], li, main, ol, p, pre, section, textarea, ul {
-    box-sizing: border-box;
-}
-p {
-    margin-bottom: 1rem;
-}
-abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: 0 0;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-user agent stylesheet
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.btn, .checkbox+label:after, .checkbox+label:before, .dropzone .dz-message span, .lines, .pswp__caption__center, .tc, .toggle+label:before {
-    text-align: center;
-}
-body {
-    font-size: 1rem;
-    line-height: 1.5;
-    height: 100%;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3c3f;
-    background-color: #f5f6f8;
-    font-family: -apple-system,BlinkMacSystemFont,roboto,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,noto,"segoe ui",arial,sans-serif;
-}
-html {
-    overflow-y: scroll;
-    font-size: 17px;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-*, :after, :before {
-    box-sizing: inherit;
-}
-::selection {
-    background-color: var(--main-color);
+*::-webkit-scrollbar{
+   width: 10px;
 }
 
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
 
+*::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+}
 
+.btn,
+.delete-btn{
+   width: 100%;
+   border-radius: 5px;
+   padding:10px 30px;
+   color:var(--white);
+   display: block;
+   text-align: center;
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.btn{
+   background-color: var(--main-color);
+}
+
+.btn:hover{
+   background-color: var(--black);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.delete-btn:hover{
+   background-color: var(--dark-red);
+}
+
+.message{
+   margin:10px 0;
+   width: 100%;
+   border-radius: 5px;
+   padding:10px;
+   text-align: center;
+   background-color: var(--red);
+   color:var(--white);
+   font-size: 20px;
+}
+
+.form-container{
+   min-height: 100vh;
+   background-color: var(--light-bg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+}
+
+.form-container form{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+   width: 500px;
+   border-radius: 5px;
+}
+
+.form-container form h3{
+   margin-bottom: 10px;
+   font-size: 30px;
+   color:var(--black);
+   text-transform: uppercase;
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 5px;
+   padding:12px 14px;
+   font-size: 18px;
+   color:var(--black);
+   margin:10px 0;
+   background-color: var(--light-bg);
+}
+
+.form-container form p{
+   margin-top: 15px;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.form-container form p a{
+   color:var(--red);
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
 /*----------------------------footer section start --------------------------------*/
 
 .footer {
@@ -452,6 +369,9 @@ html {
 
 /*----------------------------footer section end --------------------------------*/
 
+
+
+
 /*------------------------------ media queries section ------------------------------*/
 
 @media (max-width: 991px) {
@@ -483,7 +403,7 @@ html {
         top: 100%;
         right: 0;
         left: 0;
-        background: #808080;
+        background: rgba(0,0,0,.9);
         border-top: .1rem solid #eee;
         clip-path: polygon(0 0 , 100% 0 , 100% 0 , 0 0);
     }

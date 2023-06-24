@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login </title>
+
+
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+
+    <!-- custom CSS file link -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <!-- fontawesome csd file ling-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"/>
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+   <body>
+      <header class="header">
+
+         <a href="#" class="logo"> Fit<span>ness workout</span></a>
+         <nav class="navbar">
+             <a href="./index.html">Начало</a>
+             <a href="./testimonial.html">За нас</a>
+             <a href="./login form.html">профил</a>
+             <a href="./blogs.html">Новини</a> 
+             <a href="#">Контакти</a>  
+         </nav>
+     
+         <div class="icons">
+             <a href="./login form.html" class="btn"> Стани член </a>
+             <div id="menu-btn" class="fas fa-bars"></div>
+         </div>
+     
+     </header>
+
+      <div class="login">
+         
+
+         <form action="" class="login__form">
+            <h1 class="login__title">Вход</h1>
+
+            <div class="login__content">
+               <div class="login__box">
+                  <i class="ri-user-3-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="email" required class="login__input" placeholder=" ">
+                     <label for="" class="login__label">Имейл</label>
+                  </div>
+               </div>
+
+               <div class="login__box">
+                  <i class="ri-lock-2-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="password" required class="login__input" id="login-pass" placeholder=" ">
+                     <label for="" class="login__label">Парола</label>
+                     <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                  </div>
+               </div>
+            </div>
+
+            <div class="login__check">
+               <div class="login__check-group">
+                  <input type="checkbox" class="login__check-input">
+                  <label for="" class="login__check-label">Запомни ме</label>
+               </div>
+
+               <a href="#" class="login__forgot">Забравена парола?</a>
+            </div>
+
+            <button type="submit" class="login__button">Влез</button>
+
+            <p class="login__register">
+               Нямаш профил? <a href="./register form.html">Регистрирай се</a>
+            </p>
+         </form>
+      </div>
+     
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
